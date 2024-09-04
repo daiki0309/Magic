@@ -65,8 +65,6 @@ dependencies {
     implementation ("com.google.android.material:material:1.12.0")
     implementation ("androidx.compose.ui:ui:1.6.7")
     implementation ("androidx.compose.material3:material3:1.2.1")
-    implementation ("androidx.compose.ui:ui-tooling-preview:1.6.7")
-    implementation ("androidx.lifecycle:lifecycle-runtime-ktx:2.7.0")
     implementation ("androidx.activity:activity-compose:1.9.0")
     implementation ("io.coil-kt:coil-compose:2.2.2") // 画像ライブラリの追加
     implementation ("androidx.navigation:navigation-compose:2.7.7")
@@ -74,7 +72,6 @@ dependencies {
     implementation ("androidx.compose.material:material-icons-extended:x.x.x")// さらに必要な依存関係を追加
 
     implementation(platform("com.google.firebase:firebase-bom:32.4.1"))
-    implementation("com.google.firebase:firebase-firestore-ktx")
     debugImplementation("androidx.compose.ui:ui-tooling:1.6.7")
     implementation ("androidx.preference:preference-ktx:1.2.0")
     implementation("com.google.firebase:firebase-crashlytics")
@@ -82,4 +79,24 @@ dependencies {
 
     implementation ("com.google.firebase:firebase-storage-ktx")
     implementation ("com.google.firebase:firebase-storage:20.2.0")
+
+    implementation ("androidx.compose.foundation:foundation:1.3.1")
+    implementation ("com.google.accompanist:accompanist-swiperefresh:0.23.1")
+
+    implementation ("com.google.zxing:core:3.4.1")
+    implementation ("com.google.zxing:android-core:3.3.0")
+    implementation ("androidx.camera:camera-core:1.2.1")
+    implementation ("androidx.camera:camera-camera2:1.2.1")
+
+    implementation ("androidx.camera:camera-lifecycle:1.2.1")
+    implementation ("androidx.camera:camera-view:1.2.1")
+    implementation ("androidx.camera:camera-extensions:1.2.1")
+    implementation ("com.google.accompanist:accompanist-permissions:0.28.0")
+    implementation ("androidx.compose.animation:animation:1.3.0")
+
+    implementation ("com.google.firebase:firebase-firestore-ktx")
+
+    implementation("com.google.android.exoplayer:exoplayer:2.17.1")
+    implementation("com.github.bumptech.glide:glide:4.15.1")
+    annotationProcessor("com.github.bumptech.glide:compiler:4.15.1")
 }

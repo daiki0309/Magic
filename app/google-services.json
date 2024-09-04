@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "46350374204",
-    "project_id": "magic-4a3d3",
-    "storage_bucket": "magic-4a3d3.appspot.com"
+    "project_number": "552286014842",
+    "project_id": "magicapp-512bf",
+    "storage_bucket": "magicapp-512bf.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:46350374204:android:559ee8fca283244de33a39",
+        "mobilesdk_app_id": "1:552286014842:android:daddd7c0d8f5cfd1f09ac3",
         "android_client_info": {
           "package_name": "app.nakanishi.daiki.magic"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyASp85IA__70o38M_TB3NW5bODvlvGoIQs"
+          "current_key": "AIzaSyAuMW4EGh2CaWdfTfBOiXOPCifU4MoatE4"
         }
       ],
       "services": {
